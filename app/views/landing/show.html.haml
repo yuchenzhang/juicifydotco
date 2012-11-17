@@ -4,12 +4,21 @@
   %meta{property: "og:title", content: "Juicify"}
   %meta{property: "og:image", content: "http://juicify.co/assets/logo807x480-22d57d18cc9de72fff06061797cde18b.png"}
 
-%iframe{src: "https://www.facebook.com/plugins/like.php?href=juicify.co",  scrolling: "no", frameborder: "0", style: "border:none;"} 
+.facebook
+  =render 'shared/facebook'
    
 .center.column
   %img.logo{src:asset_path('logo807x480.png')}  
 
-%a.facebook_link{href:'http://www.facebook.com/pages/Juicify/416071728462995?ref=hl'} 
+.follow_us
   %p
     Follow us on
-  %img{src:asset_path('facebook.png')}
+  %a.social{href:'http://www.facebook.com/pages/Juicify/416071728462995?ref=hl'}
+    %img{src:asset_path('facebook.png')}
+  %a.social{href:'https://twitter.com/Juicify_co'}
+    %img{src:asset_path('twitter.png')}
+
+.youtube
+  =render 'shared/youtube'
+.subscription
+  =render 'shared/subscription'
