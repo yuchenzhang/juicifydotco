@@ -6,6 +6,17 @@ gem 'rails', '3.2.0'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'haml'
+gem 'haml-rails'
+gem 'settingslogic'
+gem 'jquery-rails' 
+gem 'rspec'
+gem 'rspec-rails'
+gem 'sass'    
+gem 'rabl'
+gem 'yajl-ruby'
+gem 'backbone-on-rails'
+gem "barista"
 
 
 # Gems used only for assets and not required
