@@ -4,21 +4,24 @@
 
 .facebook{
 	z-index: 9;
-	left: 200px;
-	top: 100px;
+	left: 50%;
+	top: 20px;
 	position: absolute;
+	margin-left: -380px;
 }
 
 .youtube{
 	z-index: 9;
-	left: 270px;
+	left: 50%;
+	margin-left: -450px;
 	top: 1800px;
 	position: absolute;
 }
 
 .subscription{
 	z-index: 9;
-	left: 850px;
+	left: 50%;
+	margin-left: 100px;
 	top: 1950px; 
 	position: absolute;
 	a{
@@ -32,8 +35,9 @@
 .follow_us{
 	position: absolute; 
 	top: 0px;
-	left: 200px;
-	display:block;
+	left: 50%;
+	display:block; 
+	margin-left: -500px;   
 	p{
 		font-family: helvetica;
 		font-size: 16px;
