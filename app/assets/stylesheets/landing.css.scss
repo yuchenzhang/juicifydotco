@@ -2,6 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+iframe{
+	z-index: 9;
+	left: 200px;
+	top: 100px;
+	position: absolute;
+}
+
+a.facebook_link{
+	text-decoration:none;
+	p{
+		display: block;
+		font-family: helvetica;
+		font-size: 16px;
+	}	
+	img{
+		width: 33px;
+	}
+	display: block;
+	position: absolute; 
+	top: 0px;
+	left: 200px;
+}
+
 .column{
 	width: 1100px;
 	height: 2000px;
